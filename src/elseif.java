@@ -7,14 +7,18 @@ public class elseif {
     if (seasons == 12 ||  seasons == 1 || seasons == 2) {
         System.out.println("Winter");
     }
-    if (seasons == 3 || seasons == 4 || seasons == 5) {
+   else if (seasons == 3 || seasons == 4 || seasons == 5) {
         System.out.println("Spring");
     }
-    if (seasons == 6 || seasons == 7 || seasons == 8) {
+  else if (seasons == 6 || seasons == 7 || seasons == 8) {
         System.out.println("Summer");
     }
-    if (seasons == 9 || seasons == 10 || seasons == 11) {
+    else if (seasons == 9 || seasons == 10 || seasons == 11) {
         System.out.println("Autumn");
     }
+            else {
+            System.out.println("Write another number");
+        }
     }
-}
+    }
+
